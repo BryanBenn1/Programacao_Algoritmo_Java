@@ -12,7 +12,6 @@ public class App {
         System.out.println("Qual a largura do terreno?");
         largura = inUser.nextDouble();
         System.out.println("Qual o comprimento do terreno?");
-        largura = inUser.nextDouble();
         comprimento = inUser.nextDouble();
 
         area = largura*comprimento;
