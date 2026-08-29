@@ -21,8 +21,7 @@ public class App {
         System.out.printf("O valor de cada hamburguer é: R$%.2f, e o valor de cada refrigerante é: R$%.2f. \n",
                 priceBurger, priceSoda);
         System.out.printf("Você pediu " + qtdBurger + " hamburgueres e " + qtdSoda + " refrigerantes. \n");
-        System.out.printf(
-                "O valor total dos hamburgueres é: R$%.2f, e o valor total dos refrigerantes é: R$%.2f. O total do seu pedido é R$%.2f. \n",
+        System.out.printf("O valor total dos hamburgueres é: R$%.2f, e o valor total dos refrigerantes é: R$%.2f. O total do seu pedido é R$%.2f. \n",
                 qtdBurger * priceBurger, qtdSoda * priceSoda, total);
 
         inUser.close();
