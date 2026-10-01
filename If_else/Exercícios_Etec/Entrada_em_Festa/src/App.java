@@ -14,7 +14,7 @@ public class App {
         System.out.print("A pessoa possui ingresso? (true/false): ");
         possuiIngresso = scanner.nextBoolean();
 
-        boolean podeEntrar = (idade >= 18) && possuiIngresso;
+         boolean podeEntrar = (idade >= 18) && possuiIngresso;
 
 
         if (podeEntrar) {
